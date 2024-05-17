@@ -24,7 +24,7 @@ set(PICO_CXX_ENABLE_RTTI 1)
 
 
 # Tell CMake where to find the executable source file
-set(SPIDMA keyscanner)
+set(SPIDMA spi_with_dma)
 
 add_executable(${SPIDMA}
         main.cpp
